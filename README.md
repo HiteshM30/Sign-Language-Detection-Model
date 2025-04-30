@@ -76,7 +76,9 @@ This project uses **MediaPipe** for hand tracking and a trained machine learning
 
 ### In the terminal:
 
-```bash Final Sentence: HELLO ```
+```bash 
+Final Sentence: HELLO
+ ```
 ### In the webcam window:
 - **Predicted Letter**: Displays the current letter prediction.
 - **Sentence**: Displays the built sentence as you make new gestures.
