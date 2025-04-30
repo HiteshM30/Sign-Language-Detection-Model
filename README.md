@@ -89,12 +89,6 @@ Contributions are welcome! Feel free to fork this repository, submit issues, and
 
 ---
 
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ### Acknowledgements
 
 - **MediaPipe**: For hand tracking and pose estimation.
