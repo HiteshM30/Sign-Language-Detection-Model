@@ -35,7 +35,7 @@ This project uses **MediaPipe** for hand tracking and a trained machine learning
 
 3. **Run the script**:
     ```bash
-    python asl_sentence_builder.py
+    python asl_realtime_predict.py
     ```
 
 4. **Instructions**:
@@ -58,11 +58,7 @@ This project uses **MediaPipe** for hand tracking and a trained machine learning
     - A machine learning model is used to map the hand gestures to their corresponding letters.
     - You can train the model on a custom dataset of ASL gestures or use an existing one.
 
-3. **Space Gesture Detection**:
-    - A "wide open hand" gesture (calculated by the distance between the thumb and pinky) is used to represent the **space**.
-    - When this gesture is detected, a space is added to the sentence.
-
-4. **Backspace and Save**:
+3. **Backspace and Save**:
     - The user can delete the last letter typed by pressing **Backspace**.
     - The sentence is saved to a text file when **Enter** is pressed.
 
