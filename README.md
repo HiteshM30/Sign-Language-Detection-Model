@@ -75,3 +75,28 @@ This project uses **MediaPipe** for hand tracking and a trained machine learning
 ## Example Output
 
 ### In the terminal:
+
+```bash Final Sentence: HELLO ```
+### In the webcam window:
+- **Predicted Letter**: Displays the current letter prediction.
+- **Sentence**: Displays the built sentence as you make new gestures.
+
+---
+
+## Contributions
+
+Contributions are welcome! Feel free to fork this repository, submit issues, and create pull requests.
+
+---
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+### Acknowledgements
+
+- **MediaPipe**: For hand tracking and pose estimation.
+- **OpenCV**: For image processing and webcam handling.
+- **Scikit-learn**: For machine learning model building (if used for training).
