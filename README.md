@@ -40,7 +40,6 @@ This project uses **MediaPipe** for hand tracking and a trained machine learning
 
 4. **Instructions**:
     - **Make hand gestures**: The model detects the gestures and converts them into ASL letters.
-    - **Space gesture**: Use a wide open hand (fingers spread out) to add a space between words.
     - **Backspace**: Press **Backspace** to delete the last letter in the sentence.
     - **Save sentence**: Press **Enter** to save the built sentence to a text file (`asl_sentence_output.txt`).
     - **Exit**: Press **ESC** to exit the program.
@@ -64,7 +63,7 @@ This project uses **MediaPipe** for hand tracking and a trained machine learning
 
 ## Files
 
-- `asl_sentence_builder.py`: Main script for real-time ASL detection, gesture processing, and sentence building.
+- `asl_realtime_predict.py`: Main script for real-time ASL detection, gesture processing, and sentence building.
 - `asl_model.pkl`: Pre-trained machine learning model (should be placed in the same directory).
 - `asl_sentence_output.txt`: Text file where completed sentences are saved.
 
